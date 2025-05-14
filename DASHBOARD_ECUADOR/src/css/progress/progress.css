@@ -1,0 +1,125 @@
+.container-progress {
+  background-color: color-mix(in srgb, rgb(61, 60, 250) 100%, rgb(0, 0, 0) 80%);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.img-progress {
+  width: 35%;
+}
+
+.container-subtitle-progress {
+  width: 100%;
+  text-align: center;
+}
+
+.title-progress,
+.subtitle-progress {
+  color: white;
+  font-size: 2rem;
+}
+
+#spot1 {
+  animation: movimiento1 1s infinite alternate ease-in-out;
+  animation-delay: 0s;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+#spot2 {
+  animation: movimiento2 1s infinite alternate ease-in-out;
+  animation-delay: 0.2s;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+#spot3 {
+  animation: movimiento3 1s infinite alternate ease-in-out;
+  animation-delay: 0.4s;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+#spot4 {
+  animation: movimiento4 1s infinite alternate ease-in-out;
+  animation-delay: 0.6s;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+#spot5 {
+  animation: movimiento5 1s infinite alternate ease-in-out;
+  animation-delay: 0.8s;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+#progress-hidden {
+  display: none;
+}
+
+.container-progress-father {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 40px;
+}
+
+.container-progress-father-hidden {
+  display: none;
+}
+
+.container-cards-hidden{
+    display: none;
+}
+
+@keyframes movimiento1 {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes movimiento2 {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes movimiento3 {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes movimiento4 {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes movimiento5 {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}

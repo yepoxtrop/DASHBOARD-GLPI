@@ -1,0 +1,108 @@
+tbody {
+  width: 100%;
+}
+
+#data1 {
+  width: 10%;
+}
+
+#data2,
+#data3,
+#data4,
+#data5,
+#data6,
+#data7 {
+  width: calc(90% / 6);
+}
+
+#data4 {
+  max-width: 225px;
+}
+
+.txt-user {
+  width: 100%;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tr-body-tickets {
+  text-align: center;
+  padding: 10px 8px;
+}
+
+.nombreZona {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.tituloZona {
+  width: 100%;
+}
+
+.container-table-tickets,
+.table-ticketst-zones {
+  width: 100%;
+}
+
+.contendor-por-tabla {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+#vencido {
+  animation: 1s parpadeo2 infinite;
+}
+
+#no_vencido {
+  animation: 1s parpadeo3 infinite;
+}
+
+@keyframes parpadeo2 {
+  from {
+    background-color: rgba(255, 14, 14, 0.452);
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
+@keyframes parpadeo3 {
+  from {
+    background-color: rgba(255, 199, 14, 0.644);
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #data3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #data4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #data2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  #data6 {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: color-mix(in srgb, rgb(61, 60, 250) 100%, rgb(0,0,0) 60%);
+    padding: 15px 8px 15px 8px;
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+}
+
+.titleSvg{
+    width: 40px;
+    height: 40px;
+    color: white;
+}

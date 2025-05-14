@@ -1,0 +1,18 @@
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: color-mix(in srgb, rgb(61, 60, 250) 100%, rgb(0,0,0) 40%);
+    padding: 20px 30px;
+}
+
+h5{
+    color: white;
+    text-align: center;
+}
+
+.mensaje-footer{
+    font-size: 0.8rem;
+    font-weight: 500;
+}

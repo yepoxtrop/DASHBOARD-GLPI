@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: color-mix(in srgb, rgb(124, 155, 254) 100%, rgb(0,0,0) 20%);
+}
+

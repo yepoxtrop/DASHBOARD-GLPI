@@ -1,0 +1,103 @@
+.cont1-top-tables {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100%;
+}
+
+.tit-tables-top {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.svg-tables-top {
+  color: rgb(124, 155, 254);
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.cont2-top-tables {
+  width: 100%;
+}
+
+.cont3-top-tables {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.cont4-top-tables {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.cont5-top-tables {
+  width: 100%;
+}
+
+.cont6-top-tables {
+  width: 100%;
+  background-color: color-mix(in srgb, rgb(61, 60, 250) 100%, rgb(0, 0, 0) 80%);
+  padding: 30px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-text {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width:880px) {
+  .cont4-top-tables{
+    flex-direction: column;
+  }
+
+  .cont3-top-tables,.cont3-top-tables{
+    width: 100%;
+  }
+
+  .tit-tables-top{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .tit-tables-top{
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width:405px) {
+  .tit-tables-top{
+    font-size: 1rem;
+  }
+}

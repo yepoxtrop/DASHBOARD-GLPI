@@ -1,0 +1,32 @@
+.td-bodyMonth{
+    padding: 10px 8px;
+}
+
+#inf1{
+    width: 20%;
+    text-align: center;
+}
+
+#inf2, #inf3{
+    width: 40%;
+    text-align: center;
+}
+
+td{
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 4px 10px rgba(255, 255, 255, 25%);
+}
+
+.tr-body:hover{
+    animation: change-background-tr 0.5s ease-in-out forwards;
+}
+
+@keyframes change-background-tr {
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color: rgb(124, 155, 254);
+    }
+}
+

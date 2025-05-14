@@ -1,0 +1,27 @@
+//Consultas hechas
+import { tickets_technicians } from "../../models/query/count_tickets/technicians.js";
+
+//Modelos
+import glpi_users from "../../models/glpi_users.js";
+import glpi_profiles_users from "../../models/glpi_profiles_users.js";
+import glpi_tickets from "../../models/glpi_tickets.js";
+import glpi_tickets_users from "../../models/glpi_tickets_users.js";
+
+export const encontrar_tecnicos = async (req, res) => {
+  try {
+    //conseguir tecnicos
+    const tecnicos = await tickets_technicians({
+      glpi_users,
+      glpi_profiles_users,
+      glpi_tickets,
+      glpi_tickets_users,
+    });
+
+    res.json({
+      message: "TECNICOS",
+      tecnicos,
+    });
+  } catch (error) {
+    res.json({ error });
+  }
+};

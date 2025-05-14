@@ -1,0 +1,47 @@
+.containerCountTickets{
+    display: flex;
+    align-items: center;
+    background-color: rgb(124, 155, 254);
+    padding: 8px 20px;
+    border-radius: 10px;
+    width: 25%;
+    box-shadow: 35px 35px 50px rgba(0,0,0,0.25);
+}
+
+.vectorCoffe{
+    color: rgb(61, 60, 250);
+    width: 30px;
+    height: 30px;
+}
+
+.totalTickes{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:900px) {
+    .containerCountTickets{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .containerCountTickets{
+        width: 80%;
+    }
+
+    .totalTickes{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .containerCountTickets{
+        width: 100%;
+    }
+
+    .totalTickes{
+        font-size: 1rem;
+    }
+}
